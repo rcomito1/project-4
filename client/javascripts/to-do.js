@@ -10,13 +10,18 @@ let controller = function() {
       $new_comment = $("<p>").text($(".comment-input input").val());
       //$new_comment.hide();
       $(".comments").append($new_comment);
+
       //$new_comment.fadeIn();
       $(".comment-input input").val("");
+
+      //log the list of paragraph elements
+      console.log($(".comments").html());
     }
   };
 
   $(".comment-input button").on("click", function(event) {
     addCommentFromInputBox();
+    localStorage.setItem("toDoList", $(".comments").html());
   });
 
   $(".comment-input input").on("keypress", function(event) {
@@ -24,6 +29,11 @@ let controller = function() {
       addCommentFromInputBox();
     }
   });
+
+  if (localStorage.getItem("toDoList") !== null) {
+    $(".comments").html(localStorage.getItem("toDoList"));
+  };
 };
+
 
 $(document).ready(controller);
