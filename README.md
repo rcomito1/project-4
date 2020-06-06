@@ -1,10 +1,10 @@
 # Project 4 Repo
 
 ## 281 Project 4 Learning Outcomes
--Build a To-Do app that uses the Web Storage API
--The Web Storage API lets browsers store key/value pairs locally, to create a persistent data store
--ES6 Class Types: The Basics
--ES6 Class Types: Inheritance
+- Build a To-Do app that uses the Web Storage API
+- The Web Storage API lets browsers store key/value pairs locally, to create a persistent data store
+- ES6 Class Types: The Basics
+- ES6 Class Types: Inheritance
 
 ## 281 Project 3 Learning Outcomes
 - A web API or Application Programming Interface is an API accessed using the HTTP protocol. Web APIs often deliver data formatted as JSON
@@ -19,7 +19,7 @@
 - Web APIs often deliver data formatted as JSON.
 - A web API can be accesses programmatically using JavaScript.
 - The API documentation must first be consulted in order to understand how the API works and what it returns.
--Some web API are public, and others require an access key. Flickr offers several public APIs.
+- Some web API are public, and others require an access key. Flickr offers several public APIs.
 
 ## 281 Project 1 Learning Outcomes
 - Basic Unix Shell commands
